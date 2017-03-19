@@ -1,0 +1,14 @@
+Source: purism-device-config
+Section: misc
+Priority: optional
+Maintainer: Matthias Klumpp <matthias.klumpp@puri.sm>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.8
+
+Package: purism-device-config
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Description: Settings for Purism devices
+ This package contains some configuration changes to make
+ Purism devices work better on PureOS.
