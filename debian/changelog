@@ -1,3 +1,9 @@
+purism-device-config (0.2) green; urgency=medium
+
+  * Fix typo in psmouse config
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Sun, 23 Apr 2017 17:57:50 +0200
+
 purism-device-config (0.1) green; urgency=medium
 
   * Initial release.
