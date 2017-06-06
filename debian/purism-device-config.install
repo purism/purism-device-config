@@ -1,1 +1,1 @@
-purism-psmouse.conf etc/modprobe.d/
+# No Librem-specific configurations are needed at time - yay!
