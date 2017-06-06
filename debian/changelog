@@ -1,3 +1,12 @@
+purism-device-config (0.3) green; urgency=medium
+
+  * Remove psmouse config
+    - This means that we don't need any special configuration for PureOS devices
+      anymore. Great thing! (we keep this package around for a while in case
+      it becomes temporarily necessary in future again)
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Tue, 06 Jun 2017 19:28:36 +0200
+
 purism-device-config (0.2) green; urgency=medium
 
   * Fix typo in psmouse config
