@@ -5,10 +5,14 @@ Maintainer: Matthias Klumpp <matthias.klumpp@puri.sm>
 Build-Depends: debhelper (>= 10.4)
 Standards-Version: 4.1.0
 
-Package: purism-device-config
+Package: purism-touchpad-byd-protocol
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
-Description: Settings for Purism devices
- This package contains some configuration changes to make
- Purism devices work better on PureOS.
+Description: Enforce the BYD protocol for the trackpad
+ Because automatic detection of BYD trackpads is unreliable,
+ the kernel does not do this automatically.
+ .
+ If you have a laptop which contains a BYD trackpad and want
+ to enforce the BYD protocol to get all trackpad features, you
+ can install this package.

@@ -1,0 +1,11 @@
+[Unit]
+Description=Activate BYD protocol
+Documentation=https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e9fb7cc63801d3dc71b60ca11c4d08f68f879a53
+
+[Service]
+Type=oneshot
+ExecStart=/bin/echo -n "byd" > /sys/bus/serio/devices/serio1/protocol
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
