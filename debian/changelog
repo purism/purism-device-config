@@ -1,3 +1,10 @@
+purism-device-config (0.4) green; urgency=medium
+
+  * Bump standards version
+  * Add workaround to enforce BYD protocol for trackpads
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Tue, 03 Oct 2017 19:42:58 +0200
+
 purism-device-config (0.3) green; urgency=medium
 
   * Remove psmouse config
