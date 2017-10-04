@@ -5,7 +5,7 @@ Maintainer: Matthias Klumpp <matthias.klumpp@puri.sm>
 Build-Depends: debhelper (>= 10.4)
 Standards-Version: 4.1.0
 
-Package: purism-touchpad-byd-protocol
+Package: purism-use-byd-touchpad-protocol
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
