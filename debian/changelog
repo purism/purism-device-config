@@ -1,3 +1,10 @@
+purism-device-config (0.4.1) green; urgency=medium
+
+  * Refer to the BYD touchpad as touchpad (instead of mixing
+    trackpad and touchpad names)
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Wed, 04 Oct 2017 21:05:08 +0200
+
 purism-device-config (0.4) green; urgency=medium
 
   * Bump standards version
